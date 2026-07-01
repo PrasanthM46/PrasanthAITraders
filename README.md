@@ -19,6 +19,13 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Deploy to Streamlit Community Cloud
+1. Push this repository to GitHub.
+2. Sign in to https://share.streamlit.io with your GitHub account.
+3. Click **New app** and select this repo.
+4. Set the branch to `main` and the file path to `app.py`.
+5. Click **Deploy**.
+
 ## Example usage
 - Enter a ticker like `EURUSD=X` or `AAPL`
 - Set interval to `1m`, `2m`, `5m`, or `15m`
